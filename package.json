@@ -1,0 +1,65 @@
+{
+    "name": "vue-commerce",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.9.0",
+        "bootstrap": "^4.3.1",
+        "core-js": "^2.6.5",
+        "firebase": "^6.2.3",
+        "jquery": "^3.4.1",
+        "popper.js": "^1.15.0",
+        "sweetalert2": "^8.13.0",
+        "vue": "^2.6.10",
+        "vue-carousel": "^0.18.0",
+        "vue-firestore": "^0.3.22",
+        "vue-masonry": "^0.11.7",
+        "vue-progressbar": "^0.7.5",
+        "vue-router": "^3.0.3",
+        "vue2-editor": "^2.9.1",
+        "vue2-filters": "^0.6.0",
+        "vuex": "^3.1.1"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.8.0",
+        "@vue/cli-plugin-eslint": "^3.8.0",
+        "@vue/cli-service": "^3.8.0",
+        "@vue/eslint-config-prettier": "^4.0.1",
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.16.0",
+        "eslint-plugin-vue": "^5.0.0",
+        "expose-loader": "^0.7.5",
+        "sass": "^1.18.0",
+        "sass-loader": "^7.1.0",
+        "vue-particles": "^1.0.9",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "@vue/prettier"
+        ],
+        "rules": {},
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}
